@@ -12,7 +12,8 @@
            fetch="https://gitlab.com/" />
 
   <remote  name="dumb"
-           fetch="https://gitlab.com/dumbPieOS" />
+           fetch="https://gitlab.com/dumbPieOS"
+           revision="refs/heads/pie-release" />
 
   <remote  name="woods"
            fetch="https://gitlab.com/dumbPieOS"
