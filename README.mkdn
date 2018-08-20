@@ -7,7 +7,7 @@ Getting Started
 To initialize your local repository using the dumbPieOS trees, use a command like this:
 
 ```bash
-repo init -u git://gitlab.com/dumbPieOS/manifest.git -b pie-release
+repo init -u git://github.com/dumbPieOS/manifest.git -b pie-release
 ```
 Then to sync up:
 ```bash
