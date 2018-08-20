@@ -1,0 +1,30 @@
+dumbPieOS
+===========
+
+Getting Started
+---------------
+
+To initialize your local repository using the dumbPieOS trees, use a command like this:
+
+```bash
+repo init -u git://gitlab.com/dumbPieOS/manifest.git -b pie-release
+```
+Then to sync up:
+```bash
+repo sync -f --force-sync --no-tags --no-clone-bundle -c
+```
+
+Building the source
+---------------
+
+```bash
+source build/envsetup.sh
+lunch device-userdebug
+time make -j$(nproc --all)
+```
+Example:
+```bash
+source build/envsetup.sh
+lunch aosp_woods-userdebug  
+time make -j16
+```
